@@ -1,0 +1,32 @@
+#nav{
+    grid-area: nav;
+    border-right: solid 1px;
+    border-color: #D9D9D9;
+    height: calc(100vh - 60px);
+}
+#nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+    width: fit-content;
+    padding: 0;
+}
+#nav ul li{
+    border-radius: 10px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    width: 168px;
+    justify-content: center;
+}
+#nav ul li figure{
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    
+}
+.nav-sec-active{
+    background-color: RGB(0,0,0,.1);
+}

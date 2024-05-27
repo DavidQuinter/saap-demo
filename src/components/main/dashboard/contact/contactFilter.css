@@ -1,0 +1,43 @@
+.box-contact-filter{
+    display: flex;
+    height: 28px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: center;
+}
+.box-contact-filter label{
+    margin: 0 10px;
+}
+.box-contact-filter span{
+    position: absolute;
+    transform: translate(50%, 35%);
+}
+.contact-filter{
+    height: 100%;
+    background-color: #F2F2F2;
+    color: rgb(0, 0, 0, .2);
+    border-radius: 50px;
+    border: none;
+    padding-left: 30px ;
+    width: -webkit-fill-available;;
+    
+}
+.contact-filter:active{
+    border: none;
+}
+.status-filters{
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: space-evenly;
+}
+.status-filters button{
+    background-color: #F2F2F2;
+    color: rgb(0, 0, 0, .4);
+    border-radius: 50px;
+    border: none;
+}
+/*
+.status-filters button:active{
+    background-color: blueviolet;
+}
+*/

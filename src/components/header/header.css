@@ -1,0 +1,51 @@
+header {
+    grid-area: header;
+    height: 58px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    border-bottom: solid 1px;
+    border-color: #D9D9D9;
+    padding: 0 10px;
+    margin: 0;
+}
+
+section[id="info-user"] figure {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+section[id="sec-nav"] {
+    display: flex;
+    align-items: end;
+    margin: 10.6px;
+    flex-grow: 2;
+    align-self: end;
+}
+
+section[id="sec-nav"] ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+section[id="config-user"] {
+    width: 210px;
+    align-self: end;
+}
+
+.config-user {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+section[id="config-user"] ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10.6px;
+    justify-content: flex-end;
+}
